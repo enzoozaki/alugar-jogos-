@@ -21,12 +21,7 @@ function alterarStatus (id) {
     
     } else {
        
-        let confirmacao = confirm('Tem certeza que deseja devolver o jogo?');
-        if (!confirmacao) {
-            return;
-        }
-
-        
+      
         botao.textContent = 'Alugar';
 
 
